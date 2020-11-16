@@ -155,5 +155,5 @@ Defer=defer
 {Func} {return(Func);}
 {Defer} {return(Defer);}
 {identifier} {return(IDENTIFIER);}
-
+. {return -1;}
 
